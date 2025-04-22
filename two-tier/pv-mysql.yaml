@@ -2,6 +2,7 @@ apiVersion: v1
 kind: PersistentVolume
 metadata:
   name: pv-mysql
+  namespace: ng
 spec:
   capacity:
     storage: 8Gi

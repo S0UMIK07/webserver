@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: flask-ui-deployment
+  namespace: ng
   labels:
     app: flask-mysql-app
 
